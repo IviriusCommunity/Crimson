@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crimson.Toolkit", "Crimson.Toolkit\Crimson.Toolkit.csproj", "{0B3B72C6-A61F-48B5-8AC4-98B986854D67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D0D23B2-4267-4F5C-8310-FD7B109C257D}
+	EndGlobalSection
+EndGlobal
