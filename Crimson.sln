@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35309.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crimson.Toolkit", "Crimson.Toolkit\Crimson.Toolkit.csproj", "{0B3B72C6-A61F-48B5-8AC4-98B986854D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crimson.UI", "Crimson.UI\Crimson.UI.csproj", "{EF6656DE-CE7D-4761-BAC0-B2DD6583EEEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3B72C6-A61F-48B5-8AC4-98B986854D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6656DE-CE7D-4761-BAC0-B2DD6583EEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6656DE-CE7D-4761-BAC0-B2DD6583EEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6656DE-CE7D-4761-BAC0-B2DD6583EEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6656DE-CE7D-4761-BAC0-B2DD6583EEEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
