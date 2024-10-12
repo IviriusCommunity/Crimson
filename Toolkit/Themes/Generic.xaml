@@ -79,7 +79,7 @@
                             Margin="0,8,0,0"
                             HorizontalAlignment="Left"
                             VerticalAlignment="Top"
-                            Source="Ivirius.UI.Controls/Themes/UAC.png" />
+                            Source="/Assets/Windows/UserAccountControl.png" />
                         <StackPanel Margin="40,0,0,0" Spacing="10">
                             <TextBlock
                                 Foreground="{TemplateBinding Foreground}"
