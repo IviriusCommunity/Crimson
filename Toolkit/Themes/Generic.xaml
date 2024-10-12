@@ -24,7 +24,7 @@
                             HorizontalAlignment="Left"
                             VerticalAlignment="Top"
                             Foreground="{TemplateBinding Foreground}"
-                            Glyph="" />
+                            Glyph="&#xEBE7;" />
                         <StackPanel Margin="40,0,0,0" Spacing="10">
                             <TextBlock
                                 Foreground="{TemplateBinding Foreground}"
