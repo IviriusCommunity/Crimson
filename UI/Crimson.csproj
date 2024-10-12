@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
@@ -32,6 +32,7 @@
     <Page Remove="DropDownButton.xaml" />
     <Page Remove="Styles\HyperlinkButton.xaml" />
     <Page Remove="Styles\RepeatButton.xaml" />
+    <Page Remove="Styles\ToggleButton.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
@@ -65,6 +66,9 @@
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Styles\DropDownButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\ToggleButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
   </ItemGroup>
