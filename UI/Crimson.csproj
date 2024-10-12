@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Page Remove="Button.xaml" />
+    <Page Remove="Styles\HyperlinkButton.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
@@ -52,6 +53,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Update="Styles\HyperlinkButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
