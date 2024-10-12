@@ -1,6 +1,6 @@
 # ♥️ Crimson
 
-#### The best way to style your apps.
+#### The better way to style your apps.
 
 ---
 
