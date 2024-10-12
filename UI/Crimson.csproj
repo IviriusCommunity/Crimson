@@ -26,6 +26,8 @@
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
 	  <AssemblyVersion>1.0.0</AssemblyVersion>
+
+	  <PackageId>Riverside.Crimson</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\README.md">
