@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Page Remove="Button.xaml" />
+    <Page Remove="DropDownButton.xaml" />
     <Page Remove="Styles\HyperlinkButton.xaml" />
     <Page Remove="Styles\RepeatButton.xaml" />
   </ItemGroup>
@@ -61,6 +62,9 @@
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Styles\Button.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\DropDownButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
   </ItemGroup>
