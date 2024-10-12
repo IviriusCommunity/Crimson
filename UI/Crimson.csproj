@@ -30,6 +30,7 @@
   <ItemGroup>
     <Page Remove="Button.xaml" />
     <Page Remove="Styles\HyperlinkButton.xaml" />
+    <Page Remove="Styles\RepeatButton.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
@@ -54,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Update="Styles\HyperlinkButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\RepeatButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Styles\Button.xaml">
