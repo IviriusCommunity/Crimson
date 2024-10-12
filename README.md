@@ -12,10 +12,8 @@ Crimson is the best way to style your WinUI apps with pretty styles and useful c
 
 ## 🎨 `Crimson.UI`
 
-<!--
 > [!NOTE]
 > Requires `CommunityToolkit.WinUI.UI.Controls` for WinAppSdk and `CommunityToolkit.UWP.UI.Controls` for UWP support.
--->
 
 Crimson UI is the original, primary component of the Crimson project and contains styles and themes for building resplendent, glowing apps.
 Originally based on [@FireCube](https://github.com/firecubestudios)'s GlowUI, CrimsonUI provides the consumer with shiny, glowing UI elements that makes crafting a beautiful UI satisfying.
@@ -29,5 +27,7 @@ Originally based on [@FireCube](https://github.com/firecubestudios)'s GlowUI, Cr
 > CrimsonUI’s design leverages the visual appeal of glowing panels and accent color gradients to create a dynamic 3D appearance, reminiscent of a neon glow. This effect adds depth and a touch of modernity to the user interface, ensuring that applications not only function well but also stand out with a contemporary, eye-catching aesthetic. The use of gradients and light effects in CrimsonUI controls helps to bring interfaces to life, making them more engaging and visually stimulating for users.
 
 ## 🧰 `Crimson.Toolkit`
+
+This repository also contains the Crimson Toolkit, a large toolkit containing various helpers, controls and other libraries, similar to the Microsoft [Community Toolkit](https://github.com/CommunityToolkit). It was merged from the original `Ivirius.UI.Controls` library and `Riverside.Toolkit`, and is published on NuGet under the latter's name.
 
 The Crimson Toolkit is the newer part of the Crimson ecosystem. It contains tools such as helpers, controls, branding assets and various other useful tools to build pixel-perfect apps.
