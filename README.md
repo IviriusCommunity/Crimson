@@ -12,11 +12,27 @@ Crimson is the best way to style your WinUI apps with pretty styles and useful c
 
 ## 🎨 `Crimson.UI`
 
+<!--
 > [!NOTE]
 > Requires `CommunityToolkit.WinUI.UI.Controls` for WinAppSdk and `CommunityToolkit.UWP.UI.Controls` for UWP support.
+-->
 
 Crimson UI is the original, primary component of the Crimson project and contains styles and themes for building resplendent, glowing apps.
 Originally based on [@FireCube](https://github.com/firecubestudios)'s GlowUI, CrimsonUI provides the consumer with shiny, glowing UI elements that makes crafting a beautiful UI satisfying.
+
+In order to install CrimsonUI, add the [CrimsonUI  NuGet package](https://nuget.org/packages/Crimson) to your app. This will allow you to make the best use of its controls and update it easily.
+Symbols for CrimsonUI are also available on the NuGet Gallery server and are generated on build.
+
+In order to consume CrimsonUI in your app, add the following line to your WinUI3 or UWP app's `App.xaml` file:
+```xaml
+   <Application.Resources>
+       <ResourceDictionary>
+           <ResourceDictionary.MergedDictionaries>
+               <ResourceDictionary Source="ms-appx:///Crimson/Styles.xaml" />
+           </ResourceDictionary.MergedDictionaries>
+       </ResourceDictionary>
+   </Application.Resources>
+```
 
 ### 🔳 Easily blending in
 
