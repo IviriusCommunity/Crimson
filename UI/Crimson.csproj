@@ -33,6 +33,7 @@
     <None Remove="Styles\ComboBox.xaml" />
     <None Remove="Styles\ComboBoxItem.xaml" />
     <None Remove="Styles\CrimsonTextBox.xaml" />
+    <None Remove="Styles\DesiredToggleSwitch.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
     <None Remove="Styles\RadioButton.xaml" />
     <None Remove="Styles\RepeatButton.xaml" />
@@ -81,6 +82,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\DesiredToggleSwitch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Styles\ThemeSwitch.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
