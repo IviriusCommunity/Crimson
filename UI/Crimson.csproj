@@ -32,6 +32,7 @@
     <None Remove="Styles\CheckBox.xaml" />
     <None Remove="Styles\ComboBox.xaml" />
     <None Remove="Styles\ComboBoxItem.xaml" />
+    <None Remove="Styles\CrimsonMenuBarItem.xaml" />
     <None Remove="Styles\CrimsonTextBox.xaml" />
     <None Remove="Styles\CrimsonToolbarButton.xaml" />
     <None Remove="Styles\CrimsonToolbarDropDownButton.xaml" />
@@ -88,6 +89,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\CrimsonMenuBarItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Styles\CrimsonToolbarButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
