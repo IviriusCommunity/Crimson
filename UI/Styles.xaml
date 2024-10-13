@@ -13,6 +13,13 @@
         <ResourceDictionary Source="Styles/RepeatButton.xaml" />
         <ResourceDictionary Source="Styles/ToggleButton.xaml" />
         <ResourceDictionary Source="Styles/HyperlinkButton.xaml" />
+        <ResourceDictionary Source="Styles/TextBox.xaml" />
+        <ResourceDictionary Source="Styles/Slider.xaml" />
+        <ResourceDictionary Source="Styles/RadioButton.xaml" />
+        <ResourceDictionary Source="Styles/ComboBox.xaml" />
+        <ResourceDictionary Source="Styles/ComboBoxItem.xaml" />
+        <ResourceDictionary Source="Styles/CheckBox.xaml" />
+        <ResourceDictionary Source="Styles/ToggleSwitch.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <Style x:Key="CrimsonTextBoxStyle" TargetType="TextBox">
