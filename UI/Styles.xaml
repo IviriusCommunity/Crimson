@@ -30,5 +30,11 @@
         <ResourceDictionary Source="Styles/CrimsonToolbarDropDownButton.xaml" />
         <ResourceDictionary Source="Styles/CrimsonToolbarToggleButton.xaml" />
         <ResourceDictionary Source="Styles/OldCrimsonToolbarToggleButton.xaml" />
+        <ResourceDictionary Source="Styles/OldCrimsonToolbarButton.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonMenuBarItem.xaml" />
+        <ResourceDictionary Source="Styles/NavigationViewItem.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonNavigationViewItemPresenterStyleWhenOnLeftPane.xaml" />
+        <ResourceDictionary Source="Styles/DeleteRedButton.xaml" />
+        <ResourceDictionary Source="Styles/ZippyToggle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
