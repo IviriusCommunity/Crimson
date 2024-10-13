@@ -20,6 +20,16 @@
         <ResourceDictionary Source="Styles/ComboBoxItem.xaml" />
         <ResourceDictionary Source="Styles/CheckBox.xaml" />
         <ResourceDictionary Source="Styles/ToggleSwitch.xaml" />
+        <ResourceDictionary Source="Styles/DesiredToggleSwitch.xaml" />
+        <ResourceDictionary Source="Styles/ThemeSwitch.xaml" />
+        <ResourceDictionary Source="Styles/TabView.xaml" />
+        <ResourceDictionary Source="Styles/TabViewItem.xaml" />
+        <ResourceDictionary Source="Styles/AccentButton.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonTextBox.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonToolbarButton.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonToolbarDropDownButton.xaml" />
+        <ResourceDictionary Source="Styles/CrimsonToolbarToggleButton.xaml" />
+        <ResourceDictionary Source="Styles/OldCrimsonToolbarToggleButton.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
     <Style x:Key="CrimsonMenuBarItem" TargetType="Custom:MenuBarItem">
