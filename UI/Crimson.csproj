@@ -28,6 +28,7 @@
 	  <Version>1.0.3</Version>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Styles\AccentButton.xaml" />
     <None Remove="Styles\CheckBox.xaml" />
     <None Remove="Styles\ComboBox.xaml" />
     <None Remove="Styles\ComboBoxItem.xaml" />
@@ -71,6 +72,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Update="Styles\RepeatButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Styles\AccentButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <None Update="Styles\Button.xaml">
