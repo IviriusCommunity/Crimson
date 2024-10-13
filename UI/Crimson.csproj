@@ -28,11 +28,14 @@
 	  <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Styles\HyperlinkButton.xaml" />
+    <None Remove="Styles\RepeatButton.xaml" />
+    <None Remove="Styles\ToggleButton.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <Page Remove="Button.xaml" />
     <Page Remove="DropDownButton.xaml" />
-    <Page Remove="Styles\HyperlinkButton.xaml" />
-    <Page Remove="Styles\RepeatButton.xaml" />
-    <Page Remove="Styles\ToggleButton.xaml" />
+    <Page Remove="styles\ResourceDictionary-Template.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
@@ -56,21 +59,24 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Update="Styles\HyperlinkButton.xaml">
+    <Page Update="Styles\HyperlinkButton.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\RepeatButton.xaml">
+    </Page>
+    <Page Update="Styles\RepeatButton.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </None>
+    </Page>
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Styles\DropDownButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Styles\ToggleButton.xaml">
+    <None Update="Styles\ResourceDictionary-Template.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\ToggleButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>
