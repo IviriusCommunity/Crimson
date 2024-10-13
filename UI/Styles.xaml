@@ -14,7 +14,7 @@
         <ResourceDictionary Source="Styles/CheckBox.xaml" />
         <ResourceDictionary Source="Styles/ToggleSwitch.xaml" />
         <ResourceDictionary Source="Styles/Behaviors/DesiredToggleSwitch.xaml" />
-        <ResourceDictionary Source="Styles/Behaviors/ThemeSwitch.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ThemeToggleSwitch.xaml" />
         <ResourceDictionary Source="Styles/TabView.xaml" />
         <ResourceDictionary Source="Styles/TabViewItem.xaml" />
         <ResourceDictionary Source="Styles/Behaviors/AccentButton.xaml" />
@@ -28,6 +28,6 @@
         <ResourceDictionary Source="Styles/NavigationViewItem.xaml" />
         <ResourceDictionary Source="Styles/Behaviors/NavigationViewItemPresenterStyleWhenOnLeftPane.xaml" />
         <ResourceDictionary Source="Styles/Behaviors/DeleteButton.xaml" />
-        <ResourceDictionary Source="Styles/Behaviors/ZippyToggle.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ZippyToggleButton.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
