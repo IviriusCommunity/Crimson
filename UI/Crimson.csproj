@@ -28,6 +28,7 @@
 	  <Version>1.0.2</Version>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Styles\CheckBox.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
     <None Remove="Styles\RepeatButton.xaml" />
     <None Remove="Styles\ToggleButton.xaml" />
@@ -68,6 +69,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\CheckBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <None Update="Styles\DropDownButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
