@@ -37,6 +37,7 @@
     <None Remove="Styles\CrimsonToolbarToggleButton.xaml" />
     <None Remove="Styles\DesiredToggleSwitch.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
+    <None Remove="Styles\OldCrimsonToolbarToggleButton.xaml" />
     <None Remove="Styles\RadioButton.xaml" />
     <None Remove="Styles\RepeatButton.xaml" />
     <None Remove="Styles\Slider.xaml" />
@@ -86,6 +87,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\OldCrimsonToolbarToggleButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Styles\CrimsonToolbarToggleButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
