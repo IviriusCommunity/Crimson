@@ -25,7 +25,7 @@
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
-    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <Version>1.0.1</Version>
 
     <PackageId>Riverside.Toolkit</PackageId>
   </PropertyGroup>
