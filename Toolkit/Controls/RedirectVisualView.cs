@@ -1,8 +1,8 @@
 ﻿// Totally not stolen from https://github.com/cnbluefire
 
 using Microsoft.UI.Composition;
-using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Xaml.Markup;
 using System.Numerics;

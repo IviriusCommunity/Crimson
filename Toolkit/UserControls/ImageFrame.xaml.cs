@@ -1,17 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
 using System.ComponentModel;
 
 // To learn more about WinUI, the WinUI project structure,
@@ -39,10 +27,14 @@ namespace Crimson.Toolkit.UserControls
         [Description("The source of the content of the ImageFrame")]
         public string Source
         {
-            get {
-                if (GetValue(SourceProperty).ToString().Contains("ms-appx://")) {
+            get
+            {
+                if (GetValue(SourceProperty).ToString().Contains("ms-appx://"))
+                {
                     return (string)GetValue(SourceProperty);
-                } else {
+                }
+                else
+                {
                     return BaseUri + (string)GetValue(SourceProperty);
                 }
             }
