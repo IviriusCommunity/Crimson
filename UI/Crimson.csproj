@@ -37,6 +37,7 @@
     <Page Remove="Button.xaml" />
     <Page Remove="DropDownButton.xaml" />
     <Page Remove="styles\ComboBox.xaml" />
+    <Page Remove="styles\ComboBoxItem.xaml" />
     <Page Remove="styles\ResourceDictionary-Template.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +72,9 @@
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Styles\ComboBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\ComboBoxItem.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <Page Update="Styles\CheckBox.xaml">
