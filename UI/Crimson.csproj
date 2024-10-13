@@ -35,6 +35,7 @@
     <None Remove="Styles\RadioButton.xaml" />
     <None Remove="Styles\RepeatButton.xaml" />
     <None Remove="Styles\Slider.xaml" />
+    <None Remove="Styles\TextBox.xaml" />
     <None Remove="Styles\ToggleButton.xaml" />
     <None Remove="Styles\ToggleSwitch.xaml" />
   </ItemGroup>
@@ -74,6 +75,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\TextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Styles\ToggleSwitch.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
