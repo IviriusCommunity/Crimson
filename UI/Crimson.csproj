@@ -29,6 +29,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Styles\CheckBox.xaml" />
+    <None Remove="Styles\ComboBox.xaml" />
+    <None Remove="Styles\ComboBoxItem.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
     <None Remove="Styles\RepeatButton.xaml" />
     <None Remove="Styles\ToggleButton.xaml" />
@@ -36,8 +38,6 @@
   <ItemGroup>
     <Page Remove="Button.xaml" />
     <Page Remove="DropDownButton.xaml" />
-    <Page Remove="styles\ComboBox.xaml" />
-    <Page Remove="styles\ComboBoxItem.xaml" />
     <Page Remove="styles\ResourceDictionary-Template.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -71,12 +71,12 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Styles\ComboBox.xaml">
+    <Page Update="Styles\ComboBox.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Styles\ComboBoxItem.xaml">
+    </Page>
+    <Page Update="Styles\ComboBoxItem.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </None>
+    </Page>
     <Page Update="Styles\CheckBox.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
