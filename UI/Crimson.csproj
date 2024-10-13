@@ -58,6 +58,7 @@
   <ItemGroup>
     <Page Remove="Button.xaml" />
     <Page Remove="DropDownButton.xaml" />
+    <Page Remove="ResourceDictionary-Template.xaml" />
     <Page Remove="styles\ResourceDictionary-Template.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -163,7 +164,7 @@
     <None Update="Styles\DropDownButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Styles\ResourceDictionary-Template.xaml">
+    <None Update="ResourceDictionary-Template.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <Page Update="Styles\ToggleButton.xaml">
