@@ -37,6 +37,7 @@
     <None Remove="Styles\CrimsonToolbarButton.xaml" />
     <None Remove="Styles\CrimsonToolbarDropDownButton.xaml" />
     <None Remove="Styles\CrimsonToolbarToggleButton.xaml" />
+    <None Remove="Styles\DeleteRedButton.xaml" />
     <None Remove="Styles\DesiredToggleSwitch.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
     <None Remove="Styles\OldCrimsonToolbarButton.xaml" />
@@ -91,6 +92,9 @@
     <None Update="Styles\Button.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <Page Update="Styles\DeleteRedButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Styles\ZippyToggle.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
