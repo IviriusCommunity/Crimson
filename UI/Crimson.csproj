@@ -32,7 +32,6 @@
     <None Remove="Styles\CheckBox.xaml" />
     <None Remove="Styles\ComboBox.xaml" />
     <None Remove="Styles\ComboBoxItem.xaml" />
-    <None Remove="Styles\CrimsonMenuBarItem.xaml" />
     <None Remove="Styles\CrimsonNavigationViewItemPresenterStyleWhenOnLeftPane.xaml" />
     <None Remove="Styles\CrimsonTextBox.xaml" />
     <None Remove="Styles\CrimsonToolbarButton.xaml" />
@@ -41,6 +40,7 @@
     <None Remove="Styles\DeleteRedButton.xaml" />
     <None Remove="Styles\DesiredToggleSwitch.xaml" />
     <None Remove="Styles\HyperlinkButton.xaml" />
+    <None Remove="Styles\MenuBarItem.xaml" />
     <None Remove="Styles\NavigationViewItem.xaml" />
     <None Remove="Styles\OldCrimsonToolbarButton.xaml" />
     <None Remove="Styles\OldCrimsonToolbarToggleButton.xaml" />
@@ -110,7 +110,7 @@
     <Page Update="Styles\OldCrimsonToolbarButton.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Update="Styles\CrimsonMenuBarItem.xaml">
+    <Page Update="Styles\MenuBarItem.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Update="Styles\CrimsonToolbarButton.xaml">

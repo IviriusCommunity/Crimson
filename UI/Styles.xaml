@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
-    xmlns:ToolkitControls="using:CommunityToolkit.WinUI.UI.Controls"
-    xmlns:primitiveContract7Present="using:Microsoft.UI.Xaml.Controls.Primitives?IsApiContractPresent(Windows.Foundation.UniversalApiContract,7)"
-    xmlns:primitives="using:Microsoft.UI.Xaml.Controls.Primitives">
-
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="Styles/Button.xaml" />
         <ResourceDictionary Source="Styles/DropDownButton.xaml" />
@@ -20,21 +13,21 @@
         <ResourceDictionary Source="Styles/ComboBoxItem.xaml" />
         <ResourceDictionary Source="Styles/CheckBox.xaml" />
         <ResourceDictionary Source="Styles/ToggleSwitch.xaml" />
-        <ResourceDictionary Source="Styles/DesiredToggleSwitch.xaml" />
-        <ResourceDictionary Source="Styles/ThemeSwitch.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/DesiredToggleSwitch.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ThemeSwitch.xaml" />
         <ResourceDictionary Source="Styles/TabView.xaml" />
         <ResourceDictionary Source="Styles/TabViewItem.xaml" />
-        <ResourceDictionary Source="Styles/AccentButton.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonTextBox.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonToolbarButton.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonToolbarDropDownButton.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonToolbarToggleButton.xaml" />
-        <ResourceDictionary Source="Styles/OldCrimsonToolbarToggleButton.xaml" />
-        <ResourceDictionary Source="Styles/OldCrimsonToolbarButton.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonMenuBarItem.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/AccentButton.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/TextBox.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ToolbarButton.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ToolbarDropDownButton.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ToolbarToggleButton.xaml" />
+        <ResourceDictionary Source="Styles/Legacy/ToolbarToggleButton.xaml" />
+        <ResourceDictionary Source="Styles/Legacy/ToolbarButton.xaml" />
+        <ResourceDictionary Source="Styles/MenuBarItem.xaml" />
         <ResourceDictionary Source="Styles/NavigationViewItem.xaml" />
-        <ResourceDictionary Source="Styles/CrimsonNavigationViewItemPresenterStyleWhenOnLeftPane.xaml" />
-        <ResourceDictionary Source="Styles/DeleteRedButton.xaml" />
-        <ResourceDictionary Source="Styles/ZippyToggle.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/NavigationViewItemPresenterStyleWhenOnLeftPane.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/DeleteButton.xaml" />
+        <ResourceDictionary Source="Styles/Behaviors/ZippyToggle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
